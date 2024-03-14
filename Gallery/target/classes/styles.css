@@ -1,0 +1,16 @@
+.thumbnail {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 1);
+}
+
+/* Customize appearance of full-size image view */
+ImageView {
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 1);
+}
+
+/* Add hover effect to thumbnails */
+.thumbnail:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
